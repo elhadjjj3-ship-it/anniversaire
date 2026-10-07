@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Test QR</title>
+<style>
+:root{--bg:#fff5f7;--fg:#3a1f2b;--ac:#e0446a}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#2a1620;--fg:#ffeaf0}}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:env(safe-area-inset-top,0) 20px env(safe-area-inset-bottom,0)}
+h1{font-size:2rem;margin:0}
+button{background:var(--ac);color:#fff;border:0;border-radius:24px;padding:12px 24px;font-size:1rem}
+</style></head><body>
+<h1 id="t">Le QR code marche ✅</h1>
+<button onclick="document.getElementById('t').textContent='Joyeux anniversaire ❤️'">Appuie ici</button>
+</body></html>
